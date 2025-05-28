@@ -1,5 +1,6 @@
 // index.js
 require("dotenv").config();
+const http = require("http");
 const { initBot } = require("./bot");
 
 try {
